@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-    if groceries == {}
+  if groceries == {}
     return nil
   end
 
