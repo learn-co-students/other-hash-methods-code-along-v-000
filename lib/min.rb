@@ -9,5 +9,11 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+	#code your solution here!
+	min = ""
+	groceries.each {|key, val| 
+		min = min == "" ? val.min: val.min < min ? val.min: min
+	}
+	min
 end
+
