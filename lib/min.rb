@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
+  groceries[:vegetable].min
   #code your solution here!
 end
