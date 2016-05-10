@@ -9,5 +9,8 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.values.flatten.min
+
+#looks in groceries hash, collects the values from the 4 keys, turns into a single array which allows
+#us to search for the minimum value easily.
 end
