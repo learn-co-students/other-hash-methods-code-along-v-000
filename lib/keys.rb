@@ -9,9 +9,5 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  keys = []
-  groceries.each do |key, value|
-    keys << key
-  end
-  keys
+  groceries.keys
 end
