@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.values.flatten.min
+  # groceries.min returns the full hash min - which is dairy!
 end
