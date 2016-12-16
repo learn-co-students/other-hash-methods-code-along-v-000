@@ -7,5 +7,5 @@ groceries = {
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 }
-
+binding.pry
 puts get_the_min(groceries)
