@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 #This is the groceries hash we'll be passing in to the get_the_keys method
 # groceries = {
@@ -9,5 +9,18 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  #code your solution here!
+
+#groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
+groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+ }
+
+groceries.keys 
+#returns array of all of the Keys in the Hash.
+#=> [:dairy, :vegetable, :meat, :grains]
+#binding.pry
+
 end
