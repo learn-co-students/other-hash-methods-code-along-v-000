@@ -10,4 +10,14 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  #output = []
+  #arrays_of_items = []
+  #arrays_of_items = groceries.values
+  #arrays_of_items.each do |array|
+    #array.each do |item|
+      #output << item
+    #end
+  #end
+  #return output
+  return groceries.values.flatten
 end
