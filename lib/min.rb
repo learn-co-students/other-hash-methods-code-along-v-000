@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.values.flatten.min
+  #groceries.min  # returns => [:dairy, ["milk", "yogurt", "cheese"]]
+  #binding.pry
 end
