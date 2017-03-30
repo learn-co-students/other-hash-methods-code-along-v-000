@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  #code your solution here!
+  groceries.each_with_object([]){ |(k, v), key_arr| key_arr << k }
 end
