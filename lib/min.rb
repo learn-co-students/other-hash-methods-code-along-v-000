@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.each_with_object([]){ |(k, v), value_arr| value_arr << v }.flatten.min
 end
