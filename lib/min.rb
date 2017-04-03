@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  #grab the values of groucies hash, then flatten them into a singe array, the get the min value from the array
+  groceries.values.flatten.min
 end
