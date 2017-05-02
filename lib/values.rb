@@ -9,5 +9,11 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  hash = []
+  groceries.each { |key, value|
+    value.each { |item|
+      hash << item
+    }
+  }
+  hash
 end
