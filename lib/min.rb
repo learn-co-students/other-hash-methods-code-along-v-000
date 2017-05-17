@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.collect do |group, foods|
+    foods
+  end.flatten.sort[0]
 end

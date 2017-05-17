@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.collect do |group, foods|
+    foods
+  end.flatten
 end
