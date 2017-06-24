@@ -10,4 +10,9 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  food = Array.new
+  groceries.each do |key, values|
+    food.concat(values)
+  end
+  food
 end
