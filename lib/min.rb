@@ -7,7 +7,23 @@ require 'pry'
 #  meat: ["chicken", "steak", "salmon"],
 #  grains: ["rice", "pasta"]
 # }
+=begin
+groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+ }
+
+ def other_min(groceries)
+   puts groceries.min
+
+ end
+
+other_min(groceries)
+=end
+
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.values.flatten.min
 end
