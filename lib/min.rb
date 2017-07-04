@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  # select all the values in an array and flatten to get a single array.
+  # use #min on falttened array to select the minimum value.
+  groceries.values.flatten.min
 end
