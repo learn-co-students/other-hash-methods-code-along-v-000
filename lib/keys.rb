@@ -9,5 +9,16 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  #code your solution here!
-end
+  list=[]
+   vary=groceries.keys
+   vary.each do |e|
+     if e.kind_of?(Array)
+        e.each do |n|
+            list<<n
+          end
+          else
+        list<<e
+        end
+      end
+      list
+   end
