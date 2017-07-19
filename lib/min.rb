@@ -7,7 +7,8 @@ require 'pry'
 #  meat: ["chicken", "steak", "salmon"],
 #  grains: ["rice", "pasta"]
 # }
-
 def get_the_min(groceries)
+  # binding.pry
   #code your solution here!
+  groceries[:vegetable].min
 end
