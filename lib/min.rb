@@ -10,5 +10,5 @@ require 'pry'
 def get_the_min(groceries)
   # binding.pry
   #code your solution here!
-  groceries[:vegetable].min
+  groceries.values.flatten.min
 end
