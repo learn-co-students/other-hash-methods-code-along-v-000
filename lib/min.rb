@@ -15,5 +15,5 @@ def get_the_min(groceries)
       array << element
     end
   end
-array.sort.first
-end
+array.sort
+end.first
