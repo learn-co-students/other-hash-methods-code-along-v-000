@@ -8,6 +8,7 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)
+def get_the_values(groceries) #Grab all values in the groceries type key
   #code your solution here!
+  groceries.values.flatten
 end
