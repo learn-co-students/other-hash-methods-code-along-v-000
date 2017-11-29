@@ -9,5 +9,17 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  first = []
+  groceries.each do |type, items|
+    items.each do |item|
+      if first.size==0
+        first << item
+      elsif first[0] > item
+        first[0]=item
+      else
+        first << item
+      end
+    end
+  end
+  return first[0]
 end
