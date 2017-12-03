@@ -10,4 +10,12 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  # array = []
+  # groceries.each do |fist_value, second_value|
+  #   # binding.pry
+  #
+  #   array << fist_value
+  # end
+  # array
+  groceries.keys
 end
