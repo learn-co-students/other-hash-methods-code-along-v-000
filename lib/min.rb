@@ -10,4 +10,9 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  new_array = []
+  groceries.each do |cat, array|
+    new_array << array.sort[0]
+  end
+  new_array.sort[0]
 end
