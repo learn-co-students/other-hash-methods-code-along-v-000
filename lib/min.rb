@@ -9,5 +9,12 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  values = []
+  groceries.each do |key, value|
+    value.each do |food|
+      values << food
+    end
+  end
+  values.sort[0]
+
 end
