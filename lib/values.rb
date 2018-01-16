@@ -9,5 +9,27 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.values.flatten
 end
+
+groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+}
+
+b=groceries.values
+#binding.pry
+
+=begin
+temp = []
+groceries.each do |k, v|
+  v.each do |x|
+    temp << x
+  end
+  
+end
+binding.pry
+b = groceries.values
+=end
