@@ -9,5 +9,9 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  cart = []
+  groceries.each_value do |values|
+    cart << values
+  end
+  cart.flatten
 end
