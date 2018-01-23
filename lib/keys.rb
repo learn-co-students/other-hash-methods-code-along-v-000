@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
-  groceires.keys
+  groceries.keys
 end
