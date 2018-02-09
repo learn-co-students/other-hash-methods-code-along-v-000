@@ -2,7 +2,7 @@ require_relative 'spec_helper'
 require_relative '../lib/keys.rb'
 
 
-describe "#get_the_keys" do
+puts describe "#get_the_keys" do
   let :groceries do
     {
       dairy: ["milk", "yogurt", "cheese"],
@@ -12,7 +12,7 @@ describe "#get_the_keys" do
     }
   end
 
-  it "returns all the keys from the hash" do
+  puts it "returns all the keys from the hash" do
     result = get_the_keys(groceries)
     expect(result).to eq([:dairy, :vegetable, :meat, :grains])
   end
