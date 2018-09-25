@@ -9,5 +9,10 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  #code your solution here!
+  groceries.keys.flatten
+  # grocery_keys = []
+  # groceries.each do |k, v|
+  #   grocery_keys << k
+  # end
+  # grocery_keys
 end
