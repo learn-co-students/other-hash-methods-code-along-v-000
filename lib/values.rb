@@ -9,5 +9,11 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  array = []
+  groceries.each do |attribute, values|
+    values.each do |items|
+      array << items
+    end
+end
+array
 end
