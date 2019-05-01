@@ -10,4 +10,11 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  array1 = []
+  groceries.each do |category, insidecat|
+    insidecat.each do |data|
+      array1 << data
+    end
+  end
+  array1
 end
