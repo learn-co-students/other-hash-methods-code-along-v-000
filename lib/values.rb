@@ -10,4 +10,8 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  # .flatten is used to get all the array in one line.
+  # I.E ["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]
+  groceries.values.flatten
+
 end
