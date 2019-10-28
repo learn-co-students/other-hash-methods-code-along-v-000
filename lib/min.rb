@@ -8,6 +8,7 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_min(groceries)
+def get_the_min(groceries) #Use the min method to collect the value that comes first alpheabetically ("broccoli")
   #code your solution here!
+  groceries.values.flatten.min
 end
