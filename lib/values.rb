@@ -8,6 +8,21 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+# def get_the_values(groceries)
+#   #code your solution here!
+#   grocery_list = []
+#   groceries.each do |type, grocery_item_array|
+#     grocery_item_array.each do |item|
+#       grocery_list << item
+#     end
+#   end
+#   grocery_list
+# end
+
+
 def get_the_values(groceries)
   #code your solution here!
+  (groceries.collect do |type, grocery_item_array|
+    grocery_item_array
+  end).flatten
 end
