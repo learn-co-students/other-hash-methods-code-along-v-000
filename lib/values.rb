@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  array = groceries.values
+    #array.values.flatten
+  array.flatten
 end
