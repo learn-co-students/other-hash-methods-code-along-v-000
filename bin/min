@@ -8,4 +8,5 @@ groceries = {
   grains: ["rice", "pasta"]
 }
 
+
 puts get_the_min(groceries)
