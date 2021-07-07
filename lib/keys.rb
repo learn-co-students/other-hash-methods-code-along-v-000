@@ -10,4 +10,6 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  #.keys lists all the keys of a hash
+  groceries.keys
 end

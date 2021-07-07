@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-end
+  #.values gets the values of a hash
+  #.flatten flattens a nested array or hash.
+  groceries.values.flatten
+ end
