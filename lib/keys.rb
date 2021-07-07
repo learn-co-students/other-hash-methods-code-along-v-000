@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  keys = []
+  groceries.each_key { |k| keys << k }
+  keys
 end
