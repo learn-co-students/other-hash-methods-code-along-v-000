@@ -10,4 +10,16 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+
+  # FLATIRON SchooL solution
+
+  #groceries.values.flatten
+
+  value_array = []
+  groceries.each do |food_group, items|
+    items.each do |item|
+      value_array << item
+    end
+  end
+  value_array
 end
