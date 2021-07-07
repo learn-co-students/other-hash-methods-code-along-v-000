@@ -1,8 +1,8 @@
 require_relative 'spec_helper'
 require_relative '../lib/min.rb'
 
-describe "#get_the_min" do 
-  
+describe "#get_the_min" do
+
   let :groceries do
     {
       dairy: ["milk", "yogurt", "cheese"],
@@ -12,7 +12,7 @@ describe "#get_the_min" do
     }
   end
 
-  it "returns the grocery item that comes first alphebetically" do 
+  it "returns the grocery item that comes first alphebetically" do
     result = get_the_min(groceries)
     expect(result).to eq("broccoli")
   end
