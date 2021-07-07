@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../lib/values.rb'
 
-describe "#get_the_values" do 
+puts describe "#get_the_values" do
 
   let :groceries do
     {
@@ -12,7 +12,7 @@ describe "#get_the_values" do
     }
   end
 
-  it "returns all the values from the hash" do 
+  puts it "returns all the values from the hash" do 
     result = get_the_values(groceries)
     expect(result).to eq(["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"])
   end
