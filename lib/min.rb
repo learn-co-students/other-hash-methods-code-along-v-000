@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  result = {}
+  groceries.values.each{|department| department.each{|value| result[value] = 0}}
+  result.keys.min
 end
