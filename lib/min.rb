@@ -9,5 +9,15 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  array_of_arrays = groceries.values
+  lowest_item = array_of_arrays[0][0]
+
+  array_of_arrays.each do |array_of_items|
+  	array_of_items.each do |item|
+  		if item < lowest_item
+  			lowest_item = item
+  		end
+  	end
+  end
+  lowest_item
 end
