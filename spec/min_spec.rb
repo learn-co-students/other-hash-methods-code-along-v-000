@@ -12,7 +12,7 @@ describe "#get_the_min" do
     }
   end
 
-  it "returns the grocery item that comes first alphebetically" do 
+  it "returns the grocery item that comes first alphabetically" do 
     result = get_the_min(groceries)
     expect(result).to eq("broccoli")
   end
